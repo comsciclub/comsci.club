@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+English:400,400italic);
+
+.old-text{
+	font-family: 'IM Fell English', serif;
+}
+
+#hail-guan{
+	font-size: 2.5vw;
+	text-align:center;
+	border-top: 3px solid #0F0F0F;
+	padding-top:20px;
+}
+
+#from-humble-beginnings{
+	color:#76ff03;
+}

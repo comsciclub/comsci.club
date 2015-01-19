@@ -1,0 +1,45 @@
+footer div.container{
+	padding: 15px;
+}
+
+
+footer{
+	/*position:absolute;
+	width:100%;
+	top:100%;*/
+}
+
+ul.tabs li.tab{
+    max-width: 33.33%;
+}
+
+ul.tabs .indicator{
+    background-color:#1976d2; /* blue darken-2 */
+}
+
+.no-top-margin{
+	margin-top:0;
+}
+
+.no-margin{
+    margin:0;
+}
+
+@media only screen and (max-width: 992px){
+    ul.side-nav li, ul.side-nav{
+        width:300px;
+        left:-300px;
+    }
+}
+
+*, *:hover, *:active {
+    -webkit-touch-callout:none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust:none;             /* prevent webkit from resizing text to fit */
+    -webkit-tap-highlight-color:rgba(0,0,0,0); /* prevent tap highlight color / shadow */
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select:none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+}
+
+div.parallax-container{
+    cursor:pointer;
+}
